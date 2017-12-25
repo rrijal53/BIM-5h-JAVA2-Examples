@@ -1,2 +1,2 @@
 # BIM_5th_JAVA2_Examples
-Some examples Swing
+Some examples of Swing
