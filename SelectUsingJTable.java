@@ -15,6 +15,7 @@ public class SelectUsingJTable extends JFrame{
 		     ) {	
 			String sql = "SELECT * FROM Student";
 			ResultSet r = stmt.executeQuery(sql);
+		
 //			Vector rowData = new Vector();
 			DefaultTableModel model = new DefaultTableModel();
 			model.addColumn("Name");
