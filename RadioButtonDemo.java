@@ -11,7 +11,7 @@ public class RadioButtonDemo extends JFrame implements ActionListener {
 	public RadioButtonDemo() {
 		setLayout(new FlowLayout());
 		
-		rbMale = new JRadioButton("Male");
+		rbMale = new JRadioButton("Male", true);
 		rbFemale = new JRadioButton("Female");
 		lbResult = new JLabel();
 		
@@ -33,7 +33,7 @@ public static void main(String[] args) {
 }
 
 public void actionPerformed(ActionEvent e) {
-		lbResult.setText(e.getActionCommand()  + " Selected");
+		lbResult.setText(rbFemale.isSelected()  + " Selected");
 	
 }
 

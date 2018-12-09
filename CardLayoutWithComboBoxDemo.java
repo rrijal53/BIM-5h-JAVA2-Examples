@@ -13,7 +13,7 @@ public class CardLayoutWithComboBoxDemo implements ItemListener {
     public void addComponentToPane(Container pane) {
         //Put the JComboBox in a JPanel to get a nicer look.
         JPanel comboBoxPane = new JPanel(); 
-        String comboBoxItems[] = { BUTTONPANEL, TEXTPANEL };
+        String comboBoxItems[] = { BUTTONPANEL, TEXTPANEL, "sdsds" };
       
         JComboBox cb = new JComboBox(comboBoxItems);
         cb.setEditable(false);
